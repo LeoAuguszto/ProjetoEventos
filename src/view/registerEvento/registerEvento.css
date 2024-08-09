@@ -1,0 +1,18 @@
+:root{
+    --bg-main: #614EA6;
+    --main-color:#47275c;
+    --text-color:#ffffff;
+    --bg-color-01:#0c0c0c;
+    --bg-color-02:#16181d;
+}
+.btn-cadastro{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    width: 98%;
+    margin: 12px;
+}
+
+.btn-cadastro:hover{
+    background-color: var(--bg-main);
+    color: var(--text-color);
+}

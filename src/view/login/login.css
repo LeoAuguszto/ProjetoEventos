@@ -1,0 +1,45 @@
+:root{
+    --bg-main: #614EA6;
+    --main-color:#47275c;
+    --text-color:#ffffff;
+    --bg-color-01:#0c0c0c;
+    --bg-color-02:#16181d;
+}
+.login{
+    color: var(--main-color);
+    font-weight: bold;
+}
+.login-content{
+    width: 100%;
+    padding: 10%;
+    margin: auto;
+    height: 80vh;
+}
+
+.form-control{
+    display: inline;
+}
+
+.btn-login{
+    background-color: var(--main-color);
+    color: var(--text-color);
+}
+
+.btn-login:hover{
+    background-color: var(--bg-main);
+    color: var(--text-color);
+}
+
+.option-login a{
+    text-decoration: none;
+    color: var(--main-color);
+    transition: .3s ease-in;
+}
+
+.option-login a:hover{
+    color: var(--bg-main);
+}
+.Logo-Login{
+    width: 100px;
+    height: 50px;
+}

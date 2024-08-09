@@ -1,0 +1,23 @@
+:root{
+    --bg-main: #614EA6;
+    --main-color:#47275c;
+    --text-color:#ffffff;
+    --bg-color-01:#0c0c0c;
+    --bg-color-02:#16181d;
+
+}
+
+.navbar{
+    background-color: var(--bg-main) ;
+}
+
+.nav-item a{
+    color:var(--text-color);
+    transition: 3.s ease-in;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.nav-item a:hover{
+    color:var(--main-color)
+}

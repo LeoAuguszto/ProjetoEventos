@@ -1,0 +1,27 @@
+:root{
+    --bg-main: #614EA6;
+    --main-color:#47275c;
+    --text-color:#ffffff;
+    --bg-color-01:#0c0c0c;
+    --bg-color-02:#16181d;
+
+}
+
+.form-login{
+    max-width: 650px;
+}
+
+.btn-cadastrar{
+    background-color: var(--main-color);
+    color: var( --text-color);
+}
+
+.btn-cadastrar:hover{
+    background-color: var(--bg-main);
+    color: var( --text-color);
+}
+
+.newUser{
+    color: var(--main-color);
+    font-weight: bold;
+}
